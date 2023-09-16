@@ -1,0 +1,3 @@
+# WebAssembly in Redex
+
+This is a model of (simplified) WebAssembly written in [PLT Redex](https://redex.racket-lang.org/). The original, complete syntax and semantics of WebAssembly can be found in the [2017 paper by Haas et al](https://dl.acm.org/doi/pdf/10.1145/3062341.3062363) and [online](https://webassembly.github.io/spec/core/syntax/index.html). This project implements a [slightly friendlier specification taken](https://stanford-cs242.github.io/f18/lectures/04-2-webassembly-theory.html) from [Stanford's CS242 course](https://stanford-cs242.github.io/f18/). This covers core components like memory, control flow, and the call stack, but excludes some of the more tedious complexity of floating point, different integer types, and memory alignment.
